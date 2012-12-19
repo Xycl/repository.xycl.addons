@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.xycl.addons" name="Xycl Add-on Repository" version="1.0.9" provider-name="xycl">
+	<extension point="xbmc.addon.repository" name="Xycl Add-on Repository">
+		<info compressed="false">https://raw.github.com/Xycl/repository.xycl.addons/master/repository.xycl.addons/addons.xml</info>
+		<checksum>https://raw.github.com/Xycl/repository.xycl.addons/master/repository.xycl.addons/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/Xycl/repository.xycl.addons/master/repository.xycl.addons/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Addons from http://xycl-xbmc.googlecode.com/git</summary>
+		<description>Download and install addons from xycl repository.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+

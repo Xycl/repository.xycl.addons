@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon
+  id="plugin.audio.listenliveeu"
+  version="0.4.5"
+  name="ListenLiveEU"
+  provider-name="bootsy, xycl">
+  <requires>
+   <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">European radio stations streaming live on the internet</summary>
+    <summary lang="de">Europäische Radiostationen, die live im Internet streamen</summary>
+    <summary lang="hu">Európai internetes rádiók</summary>
+    <description lang="en">Welcome to listenlive.eu, a web radio directory showcasing over 4000 radio stations from across Europe streaming live on the internet.</description>
+    <description lang="de">Listenlive.eu ist ein Web-Radio Aggregator mit mehr als 4000 Radiostationen aus Europa.</description>
+    <description lang="hu">A listenlive.eu több mint 4000 élo rádióadást tartalmaz Európából, melyeket az interneten keresztül érhetsz el.</description>
+    <platform>all</platform>
+    <language></language>
+  </extension>
+</addon>
+
+<addon id="plugin.image.mypicsdb" version="1.9.0" name="My Pictures Database" provider-name="Xycl, MikeBZH44, Alexsolex">
+	<requires>
+		<import addon="xbmc.python" version="2.1"/>
+		<import addon="script.module.dialogaddonscan" version="1.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10" optional="true"/>
+		<import addon="script.common.plugin.cache" version="0.9.1"/>
+        <import addon="script.module.myconnpy" version="0.3.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>image</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<language/>
+		<summary lang="en">Advanced Pictures manager</summary>
+		<summary lang="fr">Gestion avancée de votre photothèque</summary>
+		<summary lang="de">Datenbank gestützter Bildermanager</summary>
+		<description lang="en">Manage your pictures as you do for musics and videos[CR]Then you'll be able to sort your pictures by day/month/year, keywords and much more</description>
+		<description lang="fr">Gérez vos photos sous forme d'une base de donnée de la même manière que les médiathèques musique ou vidéos[CR]A vous le tri de vos photos par dates, par mots clés, et bien plus encore !!</description>
+		<description lang="de">Verwalte deine Bilder, genau wie deine Musik oder Videos in einer Datenbank[CR]Dadurch lassen sich Bilder nach Tag/Monat/Jahr, Schlüsselwörtern und mehr sortieren</description>
+        <description lang="nl">Toon uw afbeeldingen zoals voor muziek en video’s. [CR]Op basis van meta-gegevens in de afbeeldingen kunt een slideshow starten, zoals op datums, categorieën, trefwoorden of andere EXIF/IPTC/XMP tags.</description>
+	</extension>
+</addon>
+
+<addon id="plugin.video.wdrrockpalast" name="WDR Rockpalast" version="1.0.8" provider-name="xycl">
+    <requires>
+        <import addon="xbmc.python" version="2.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language>en de</language>
+        <summary lang="de">Zugriff auf die WDR Rockpalast Konzerte</summary>
+        <summary lang="en">Plays WDR Rockpalast concerts</summary>
+        <description lang="de">Spielt die Konzerte, die der WDR auf http://www.wdr.de z.V. stellt.</description>
+        <description lang="en">Plays concerts from german TV called WDR which can be found on http://www.wdr.de</description>
+    </extension>
+</addon>
+
+<addon id="repository.xycl.addons" name="Xycl Add-on Repository" version="1.0.9" provider-name="xycl">
+	<extension point="xbmc.addon.repository" name="Xycl Add-on Repository">
+		<info compressed="false">https://raw.github.com/Xycl/repository.xycl.addons/master/repository.xycl.addons/addons.xml</info>
+		<checksum>https://raw.github.com/Xycl/repository.xycl.addons/master/repository.xycl.addons/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/Xycl/repository.xycl.addons/master/repository.xycl.addons/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Addons from http://xycl-xbmc.googlecode.com/git</summary>
+		<description>Download and install addons from xycl repository.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.dialogaddonscan" name="Dialog Addon Scan" version="1.1.2" provider-name="Frost (passion-xbmc.org),Xycl">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Dialog Scan for Add-on</summary>
+    <description>Dialog Scan for Add-on</description>
+    <license>GPL</license>
+    <platform>all</platform>
+    <nofanart>true</nofanart>
+    <noicon>true</noicon>
+  </extension>
+</addon>
+</addons>
