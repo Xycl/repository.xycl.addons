@@ -21,10 +21,11 @@
     <description lang="de">Listenlive.eu ist ein Web-Radio Aggregator mit mehr als 4000 Radiostationen aus Europa.</description>
     <description lang="hu">A listenlive.eu több mint 4000 élo rádióadást tartalmaz Európából, melyeket az interneten keresztül érhetsz el.</description>
     <platform>all</platform>
+    <language></language>
   </extension>
 </addon>
 
-<addon id="plugin.image.mypicsdb" version="1.9.7" name="My Pictures Database" provider-name="Xycl, MikeBZH44, Alexsolex">
+<addon id="plugin.image.mypicsdb" version="1.9.8" name="My Pictures Database" provider-name="Xycl, MikeBZH44, Alexsolex">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.dialogaddonscan" version="1.1.0"/>
@@ -62,9 +63,9 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.wdrrockpalast" name="WDR Rockpalast" version="2.1.2" provider-name="xycl">
+<addon id="plugin.video.wdrrockpalast" name="WDR Rockpalast" version="1.1.2" provider-name="xycl">
     <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.python" version="2.1"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>

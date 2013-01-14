@@ -20,5 +20,6 @@
     <description lang="de">Listenlive.eu ist ein Web-Radio Aggregator mit mehr als 4000 Radiostationen aus Europa.</description>
     <description lang="hu">A listenlive.eu több mint 4000 élo rádióadást tartalmaz Európából, melyeket az interneten keresztül érhetsz el.</description>
     <platform>all</platform>
+    <language></language>
   </extension>
 </addon>
