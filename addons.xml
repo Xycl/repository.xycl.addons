@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon
-  id="plugin.audio.listenliveeu"
-  version="0.4.6"
-  name="ListenLiveEU"
-  provider-name="bootsy, xycl">
+  id="plugin.audio.listenliveeu" version="0.4.6" name="ListenLiveEU" provider-name="bootsy, xycl">
   <requires>
    <import addon="xbmc.python" version="2.0"/>
   </requires>
@@ -68,22 +65,14 @@
     </extension>
 </addon>
 
-<<<<<<< HEAD
-<addon id="repository.xycl.addons" name="Xycl Eden Add-on Repository" version="1.0.0" provider-name="xycl">
+<addon id="repository.xycl.eden_addons" name="Xycl Eden Add-on Repository" version="1.0.0" provider-name="xycl">
 	<requires>
-		<import addon="xbmc.addon" version="11.0"/>
+		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
 	<extension point="xbmc.addon.repository" name="Xycl Eden Add-on Repository">
-		<info compressed="false">https://github.com/Xycl/repository.xycl.addons/blob/Eden/repository.xycl.addons/addons.xml</info>
-		<checksum>https://github.com/Xycl/repository.xycl.addons/blob/Eden/repository.xycl.addons/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/Xycl/repository.xycl.addons/blob/Eden/repository.xycl.addons/master/</datadir>
-=======
-<addon id="repository.xycl.addons" name="Xycl Add-on Repository" version="1.0.9" provider-name="xycl">
-	<extension point="xbmc.addon.repository" name="Xycl Add-on Repository">
 		<info compressed="false">https://raw.github.com/Xycl/repository.xycl.addons/Eden/addons.xml</info>
 		<checksum>https://raw.github.com/Xycl/repository.xycl.addons/Eden/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.github.com/Xycl/repository.xycl.addons/Eden/</datadir>
->>>>>>> e6a6ba9a275faa7832883807197546e3049424f5
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install Addons from github.com/Xycl</summary>
