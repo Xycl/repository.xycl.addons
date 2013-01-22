@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.xycl.eden_addons" name="Xycl Eden Add-on Repository" version="1.0.1" provider-name="xycl">
-	<requires>
-		<import addon="xbmc.addon" version="11.0"/>
-	</requires>
+<addon id="repository.xycl.eden_addons" name="Xycl Eden Add-on Repository" version="1.0.2" provider-name="xycl">
 	<extension point="xbmc.addon.repository" name="Xycl Eden Add-on Repository">
 		<info compressed="false">https://raw.github.com/Xycl/repository.xycl.addons/Eden/addons.xml</info>
 		<checksum>https://raw.github.com/Xycl/repository.xycl.addons/Eden/addons.xml.md5</checksum>
@@ -10,7 +7,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install Addons from github.com/Xycl</summary>
-		<description>Download and install addons from xycl repository.</description>
+		<description>Contains e.g. My Pictures DB, WDR Rockpalast and Listenlive.eu.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
