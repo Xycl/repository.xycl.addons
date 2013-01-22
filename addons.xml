@@ -65,9 +65,9 @@
     </extension>
 </addon>
 
-<addon id="repository.xycl.eden_addons" name="Xycl Eden Add-on Repository" version="1.0.0" provider-name="xycl">
+<addon id="repository.xycl.eden_addons" name="Xycl Eden Add-on Repository" version="1.0.1" provider-name="xycl">
 	<requires>
-		<import addon="xbmc.addon" version="12.0.0"/>
+		<import addon="xbmc.addon" version="11.0"/>
 	</requires>
 	<extension point="xbmc.addon.repository" name="Xycl Eden Add-on Repository">
 		<info compressed="false">https://raw.github.com/Xycl/repository.xycl.addons/Eden/addons.xml</info>
