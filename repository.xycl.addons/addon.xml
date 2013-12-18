@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.xycl.addons" name="Xycl Add-on Repository" version="1.2.0" provider-name="xycl">
+<addon id="repository.xycl.addons" name="Xycl Add-on Repository" version="1.2.1" provider-name="xycl">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -9,8 +9,10 @@
 		<datadir zip="true">https://raw.github.com/Xycl/repository.xycl.addons/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Install Addons from github.com/Xycl development repository</summary>
-		<description>Here you can find the latest add-on developement versions.[CR]These versions might be [B]unstable[/B]![CR]Use them with caution.</description>
+		<summary lang="en">Install Addons from github.com/Xycl development repository</summary>
+        <summary lang="de">Installiere Addons vom github.com/Xycl Entwicklungs-Repository</summary>
+		<description lang="en">Here you can find the latest add-on developement versions.[CR]These versions might be [B]unstable[/B]![CR]Use them with caution.</description>
+        <description lang="de">Enthält die neuesten Addon Entwicklungsversionen.[CR]Diese Versionen können instabil sein!</description>
 		<platform>all</platform>
 	</extension>
 </addon>

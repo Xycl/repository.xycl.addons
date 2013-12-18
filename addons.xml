@@ -57,7 +57,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.image.mypicsdb" version="12.2.6" name="My Pictures Database" provider-name="Xycl | MikeBZH44 | Alexsolex">
+<addon id="plugin.image.mypicsdb" version="12.2.7" name="My Pictures Database" provider-name="Xycl | MikeBZH44 | Alexsolex">
 	<requires>
         <import addon="xbmc.python" version="2.1.0" optional="false"/>
         <import addon="script.module.dialogaddonscan" version="1.1.0" optional="false"/>
@@ -126,7 +126,7 @@
     </extension>
 </addon>
 
-<addon id="repository.xycl.addons" name="Xycl Add-on Repository" version="1.2.0" provider-name="xycl">
+<addon id="repository.xycl.addons" name="Xycl Add-on Repository" version="1.2.1" provider-name="xycl">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -136,15 +136,17 @@
 		<datadir zip="true">https://raw.github.com/Xycl/repository.xycl.addons/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Install Addons from github.com/Xycl development repository</summary>
-		<description>Here you can find the latest add-on developement versions.[CR]These versions might be [B]unstable[/B]![CR]Use them with caution.</description>
+		<summary lang="en">Install Addons from github.com/Xycl development repository</summary>
+        <summary lang="de">Installiere Addons vom github.com/Xycl Entwicklungs-Repository</summary>
+		<description lang="en">Here you can find the latest add-on developement versions.[CR]These versions might be [B]unstable[/B]![CR]Use them with caution.</description>
+        <description lang="de">Enthält die neuesten Addon Entwicklungsversionen.[CR]Diese Versionen können instabil sein!</description>
 		<platform>all</platform>
 	</extension>
 </addon>
 
-<addon id="script.module.dialogaddonscan" name="Dialog Addon Scan" version="1.1.2" provider-name="Frost (passion-xbmc.org),Xycl">
+<addon id="script.module.dialogaddonscan" name="Dialog Addon Scan" version="1.1.3" provider-name="Frost (passion-xbmc.org),Xycl">
   <requires>
-    <import addon="xbmc.python" version="2.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
