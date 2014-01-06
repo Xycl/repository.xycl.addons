@@ -2,7 +2,7 @@
 <addons>
 <addon
   id="plugin.audio.listenliveeu"
-  version="1.1.2"
+  version="1.1.4"
   name="ListenLiveEU"
   provider-name="bootsy, xycl">
   <requires>
@@ -15,6 +15,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="be">European radio stations streaming live on the internet</summary>
+    <summary lang="ca">Estacions de ràdios per Internet europees en directe</summary>
     <summary lang="da">Europæiske radiostationer, som streamer live på nettet</summary>
     <summary lang="de">Europäische Radiostationen, die live im Internet streamen</summary>
     <summary lang="el">Ευρωπαϊκοί ραδιοφωνικοί σταθμοί που εκπέμπουν ζωντανά στο διαδίκτυο</summary>
@@ -22,6 +23,7 @@
     <summary lang="es">Estaciones de radio europeas retransmitiendo en directo por internet</summary>
     <summary lang="fr">Stations de radio européennes en streaming direct depuis internet </summary>
     <summary lang="gl">Emisoras de radio europeas transmitindo en directo por internet</summary>
+    <summary lang="he">שידורי תחנות רדיו אירופאיות חיים באינטרנט.</summary>
     <summary lang="hr">Europske radio stanice emitirane uživo sa Interneta</summary>
     <summary lang="hu">Európai internetes rádiók</summary>
     <summary lang="it">Le stazioni radio Europee in streaming dal vivo su internet</summary>
@@ -33,6 +35,7 @@
     <summary lang="sv">Europeiska radiostationer som sänder direkt över internet</summary>
     <summary lang="zh">互联网上的欧洲电台直播流</summary>
     <description lang="be">Welcome to listenlive.eu, a web radio directory showcasing over 4000 radio stations from across Europe streaming live on the internet.</description>
+    <description lang="ca">Benvingut a listenlive.eu, un directori de ràdios web amb més de 4000 estacions de tota Europa transmetent en directe per Internet.</description>
     <description lang="da">Velkommen til listenlive.eu, en webradio-oversigt med over 4000 radiostationer fra overalt i Europe, som streamer live på nettet.</description>
     <description lang="de">Listenlive.eu ist ein Web-Radio Aggregator mit mehr als 4000 Radiostationen aus Europa.</description>
     <description lang="el">Καλώς ήρθατε στο listenlive.eu, ένα ευρετήριο διαδικτυακών ραδιοφωνικών σταθμών με περισσότερους από 4000 σταθμούς που εκπέμπουν ζωντανά στο διαδίκτυο σε όλη την Ευρώπη.</description>
@@ -40,10 +43,11 @@
     <description lang="es">Bienvenido a listenlive.eu, una guía de radios online con más de 4000 estaciones de radio de toda Europa retransmitiendo en directo por internet.</description>
     <description lang="fr">Bienvenue à listenlive.eu, un répertoire de web radio réunissant plus de 4000 stations radio depuis toute l'Europe en streaming direct depuis internet.  </description>
     <description lang="gl">Benvido a listenlive.eu, unha guía de radios en liña con máis de 4000 emisoras de radio de toda Europa transmitindo en directo por internet.</description>
+    <description lang="he">ברוך הבא אל  listenlive.eu, מדריך תחנות רדיו מקוונות המציג יותר מ-4000 תחנות רדיו מכל רחבי אירופה המזרימות שידור חי באינטרנט.</description>
     <description lang="hr">Dobrodošli na listenlive.eu, web radio popis koji prikazuje preko 4000 radio postaja iz cijele Europe emitiranih uživo sa Interneta.</description>
     <description lang="hu">A listenlive.eu több mint 4000 élo rádióadást tartalmaz Európából, melyeket az interneten keresztül érhetsz el.</description>
     <description lang="it">Benvenuto a listenlive.eu una web radio che mostra più di 4000 radio stazioni provenienti da tutta Europa in diretta streaming  su internet.</description>
-    <description lang="nl">Welkom bij listenlive.eu, een web radio directory met meer dan 4000 radio stations uit heel europa welke live streamen op het internet.</description>
+    <description lang="nl">Welkom bij listenlive.eu, een web radio station met meer dan 4000 radio stations uit heel europa welke live streamen op het internet.</description>
     <description lang="pl">Witamy w listenlive.eu, katalogu ponad 4000 stacji radiowych z całej Europy nadających na żywo w internecie.</description>
     <description lang="pt">Benvindo a listenlive.eu, um directório de rádios web que oferece mais de 4000 estações de rádio de toda a Europa com transmissão ao vivo na internet.</description>
     <description lang="pt_BR">Bem-vindo à listenlive.eu, um diretório de rádio na web que contém mais de 4000 estações de rádio de toda a Europa ao vivo pela internet.</description>
@@ -55,12 +59,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.image.mypicsdb" version="12.2.9" name="My Pictures Database" provider-name="Xycl | MikeBZH44 | Alexsolex">
+<addon id="plugin.image.mypicsdb" version="12.3.1" name="My Pictures Database" provider-name="Xycl | MikeBZH44 | Alexsolex">
 	<requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.dialogaddonscan" version="1.1.3"/>
         <import addon="script.common.plugin.cache" version="2.5.2"/>
-        <import addon="script.module.myconnpy" version="0.3.3"/>
         <import addon="script.module.simplejson" version="2.0.10" optional="true"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
@@ -68,6 +70,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
         <summary lang="be">Advanced Pictures manager</summary>
+        <summary lang="ca">Administrador de imatges avançat</summary>
         <summary lang="da">Udvidet Billedhåndtering</summary>
         <summary lang="de">Datenbank gestützter Bildermanager</summary>
         <summary lang="el">Προηγμένη Διαχείριση Εικόνων</summary>
@@ -86,6 +89,7 @@
         <summary lang="sk">Pokročilý správca obrázkov</summary>
         <summary lang="sv">Avancerad bildhanterare</summary>
         <description lang="be">Manage your pictures as you do for musics and videos[CR]Then you'll be able to sort your pictures by day/month/year, keywords and much more</description>
+        <description lang="ca">Administra les teves imatges tal com ho fas amb la música i el vídeos[CR]Llavors podràs ordenar les teves fotografies per dia/mes/any, paraules clau i molt més</description>
         <description lang="da">Håndter dine billeder, som du håndterer musik og videoer[CR]Så vil du kunne sortere dine billeder efter dag/måned/år, nøgleord og meget andet</description>
         <description lang="de">Verwalte deine Bilder, genau wie deine Musik oder Videos in einer Datenbank.[CR]Dadurch lassen sich Bilder nach Tag/Monat/Jahr, Schlüsselwörtern und mehr sortieren bzw. filtern.</description>
         <description lang="el">Διαχειριστείτε τις εικόνες σας όπως κάνετε για τις ταινίες και τη μουσική σας[CR]Μετέπειτα θα μπορείτε να ταξινομείτε τις εικόνες σας ανάλογα με την ημερομηνία, το μήνα, το έτος, κάποια λέξη-κλειδί, και πολλά άλλα</description>
@@ -140,34 +144,6 @@
         <description lang="de">Enthält die neuesten Addon Entwicklungsversionen.[CR]Diese Versionen können instabil sein!</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="script.module.dialogaddonscan" name="Dialog Addon Scan" version="1.1.3" provider-name="Frost (passion-xbmc.org),Xycl">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>Dialog Scan for Add-on</summary>
-    <description>Dialog Scan for Add-on</description>
-    <license>GPL</license>
-    <platform>all</platform>
-    <nofanart>true</nofanart>
-    <noicon>true</noicon>
-  </extension>
-</addon>
-
-<addon id="script.module.myconnpy" name="MySQL Connector/Python" version="0.3.3" provider-name="http://forge.mysql.com/projects/project.php?id=302">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib"/>
-    <extension point="xbmc.addon.metadata">
-        <summary>MySQL Connector/Python</summary>
-        <description>MySQL Connector/Python is implementing the MySQL Client/Server protocol completely in Python. This means you don't have to compile anything or MySQL (client library) doesn't even have to be installed on the machine.</description>
-        <license>GPLv2</license>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="script.service.fritzbox"  name="Fritzbox Callmonitor"  version="1.0.3" provider-name="Xycl, WROW, Yehl">
