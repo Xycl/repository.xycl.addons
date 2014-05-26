@@ -61,7 +61,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.image.mypicsdb" version="12.3.13" name="My Pictures Database" provider-name="Xycl | MikeBZH44 | Alexsolex">
+<addon id="plugin.image.mypicsdb" version="12.3.14" name="My Pictures Database" provider-name="Xycl | MikeBZH44 | Alexsolex">
 	<requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.common.plugin.cache" version="2.5.2"/>
@@ -291,6 +291,19 @@ Raadpleeg de lokale wetgeving voordat u deze plugin installeert.</disclaimer>
     <description lang="en">This Addon displays incoming calls. It connects to your Fritzbox on port 1012. To enable the Callmonitor in your Fritzbox enter the following code into your telephone. #96*5* Callmonitor-Support enabled. #96*4* Callmonitor-Support disabled.</description>
     <summary lang="de">Fritzbox Anrufmonitor</summary>
     <description lang="de">Dieses Addon zeigt eingehende Anrufe auf der Fritzbox an. Dazu muss der Port 1012 auf der Fritzbox freigeschaltet sein. Tippen Sie dazu auf dem Telefon folgenden Telefoncode ein. #96*5* Callmonitor-Support aktivieren. #96*4* Callmonitor-Support deaktivieren.</description>
+  </extension>
+</addon>
+
+<addon id="script.service.mypicsdb"  name="MyPicsDB Update Service"  version="0.0.1" provider-name="Xycl">
+   <requires>
+   	<import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="default.py" start="login"></extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">Updates MyPicsDB</summary>
+    <description lang="en">A Service which automatically updates MyPicsDB</description>
   </extension>
 </addon>
 </addons>
