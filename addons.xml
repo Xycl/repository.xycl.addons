@@ -121,7 +121,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.amazon_prime_de" name="Amazon.de Prime Instant Video" version="13.0.3" provider-name="xycl">
+<addon id="plugin.video.amazon_prime_de" name="Amazon.de Prime Instant Video" version="13.0.4" provider-name="xycl">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="plugin.program.chrome.launcher" version="1.0.0"/>
@@ -132,10 +132,10 @@
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <language>en de</language>
-        <summary lang="de">Amazon Instant Prime</summary>
-        <summary lang="en">Amazon Instant Prime</summary>
-        <description lang="de">Spielt die Filme von Amazon Instant Prime. Sie benötigen eine Amazon Prime Mitgliedschaft!</description>
-        <description lang="en">Plays movies from Amazon Instant Prime. You need an Amazon Prime membership!</description>
+        <summary lang="de">Amazon Prime Instant Video</summary>
+        <summary lang="en">Amazon Prime Instant Video</summary>
+        <description lang="de">Spielt die Filme von Amazon Prime Instant Video. Sie benötigen eine Amazon Prime Mitgliedschaft!</description>
+        <description lang="en">Plays movies from Amazon Prime Instant Video. You need an Amazon Prime membership!</description>
     </extension>
 </addon>
 
@@ -174,7 +174,7 @@
 	</extension>
 </addon>
 
-<addon id="script.service.mypicsdb"  name="MyPicsDB Update Service"  version="0.0.1" provider-name="Xycl">
+<addon id="script.service.mypicsdb"  name="MyPicsDB Update Service"  version="13.0.0" provider-name="Xycl">
    <requires>
    	<import addon="xbmc.python" version="2.1.0"/>
   </requires>
