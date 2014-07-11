@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.wdrrockpalast" name="WDR Rockpalast" version="12.0.1" provider-name="xycl">
+<addon id="plugin.video.amazon_instant_prime_de" name="Amazon Instant Prime DE" version="13.0.0" provider-name="xycl">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.program.chrome.launcher" version="1.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video audio</provides>
+        <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <language>en de</language>
-        <summary lang="de">Zugriff auf die WDR Rockpalast Konzerte</summary>
-        <summary lang="en">Plays WDR Rockpalast concerts</summary>
-        <description lang="de">Spielt die Konzerte, die der WDR auf http://www.wdr.de z.V. stellt.</description>
-        <description lang="en">Plays concerts from german TV called WDR which can be found on http://www.wdr.de</description>
+        <summary lang="de">Amazon Instant Prime</summary>
+        <summary lang="en">Amazon Instant Prime</summary>
+        <description lang="de">Spielt die Filme von Amazon Instant Prime. Sie benötigen eine Amazon Prime Mitgliedschaft!</description>
+        <description lang="en">Plays movies from Amazon Instant Prime. You need an Amazon Prime membership!</description>
     </extension>
 </addon>
