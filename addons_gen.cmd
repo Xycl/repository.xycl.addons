@@ -5,4 +5,4 @@ rem copy ..\script.service.fritzbox\addon.xml script.service.fritzbox
 copy ..\script.service.mypicsdb\addon.xml script.service.mypicsdb
 copy ..\plugin.video.amazon_prime_de\addon.xml plugin.video.amazon_prime_de
 
-c:\Python27\python.exe addons_gen.py
+C:\Apps\Python27\python.exe addons_gen.py
