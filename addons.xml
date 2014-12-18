@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.audio.allartists" name="All Artists" version="13.0.0" provider-name="xycl">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="de">Zeigt alle Interpreten an</summary>
+        <summary lang="en">Add-on which shows all artists</summary>
+        <description lang="de">Unabhängig von den Systemeinstellungen zeigt dieses Addon sämtliche Interpreten an.</description>
+        <description lang="en">Independent of system settings this addon displays all artists.</description>
+    </extension>
+</addon>
+
 <addon
   id="plugin.audio.listenliveeu"
   version="1.1.5"
