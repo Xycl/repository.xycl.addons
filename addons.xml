@@ -142,24 +142,6 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.amazon_prime_de" name="Amazon.de Prime Instant Video" version="13.0.8" provider-name="xycl">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="plugin.program.chrome.launcher" version="1.0.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <language>en de</language>
-        <summary lang="de">Amazon Prime Instant Video</summary>
-        <summary lang="en">Amazon Prime Instant Video</summary>
-        <description lang="de">Spielt die Filme von Amazon Prime Instant Video. Sie benötigen eine Amazon Prime Mitgliedschaft!</description>
-        <description lang="en">Plays movies from Amazon Prime Instant Video. You need an Amazon Prime membership!</description>
-    </extension>
-</addon>
-
 <addon id="plugin.video.wdrrockpalast" name="WDR Rockpalast" version="14.0.1" provider-name="xycl">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -174,6 +156,24 @@
         <summary lang="en">Plays WDR Rockpalast concerts</summary>
         <description lang="de">Spielt die Konzerte, die der WDR auf http://www.wdr.de z.V. stellt.</description>
         <description lang="en">Plays concerts from german TV called WDR which can be found on http://www.wdr.de</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.xycl_amazon_prime" name="Amazon Prime" version="14.0.0" provider-name="xycl">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.program.chrome.launcher" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language>en de</language>
+        <summary lang="de">Amazon Prime Instant Video</summary>
+        <summary lang="en">Amazon Prime Instant Video</summary>
+        <description lang="de">Spielt die Filme von Amazon Prime Instant Video ab. Sie benötigen eine Amazon Prime Mitgliedschaft!</description>
+        <description lang="en">Plays movies from Amazon Prime Instant Video. You need an Amazon Prime membership!</description>
     </extension>
 </addon>
 
