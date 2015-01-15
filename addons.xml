@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.audio.allartists" name="All Artists" version="13.0.0" provider-name="xycl">
+<addon id="plugin.audio.allartists" name="All Artists" version="14.0.0" provider-name="xycl">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
