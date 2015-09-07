@@ -18,7 +18,7 @@
 
 <addon
   id="plugin.audio.listenliveeu"
-  version="1.1.5"
+  version="1.1.6"
   name="ListenLiveEU"
   provider-name="bootsy, xycl">
   <requires>
@@ -31,11 +31,14 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="be">European radio stations streaming live on the internet</summary>
+    <summary lang="bg">Европейски радиостанции, излъчващи на живо по интернет</summary>
     <summary lang="ca">Estacions de ràdios per Internet europees en directe</summary>
     <summary lang="da">Europæiske radiostationer, som streamer live på nettet</summary>
     <summary lang="de">Europäische Radiostationen, die live im Internet streamen</summary>
     <summary lang="el">Ευρωπαϊκοί ραδιοφωνικοί σταθμοί που εκπέμπουν ζωντανά στο διαδίκτυο</summary>
     <summary lang="en">European radio stations streaming live on the internet</summary>
+    <summary lang="en_NZ">European radio stations streaming live on the internet</summary>
+    <summary lang="en_US">European radio stations streaming live on the internet</summary>
     <summary lang="es">Estaciones de radio europeas retransmitiendo en directo por internet</summary>
     <summary lang="fr">Stations de radio européennes en streaming direct depuis internet </summary>
     <summary lang="fr_CA">Stations de radio européenne en direct sur ​​Internet</summary>
@@ -44,19 +47,28 @@
     <summary lang="hr">Europske radio stanice emitirane uživo sa Interneta</summary>
     <summary lang="hu">Európai internetes rádiók</summary>
     <summary lang="it">Le stazioni radio Europee in streaming dal vivo su internet</summary>
+    <summary lang="lt">Europietiškų radijo stočių gyva transliacija internetu</summary>
     <summary lang="nl">Internet live streams van Europese radio stations</summary>
+    <summary lang="no">Europeiske radiostasjoner live på internett</summary>
     <summary lang="pl">Europejskie stacje radiowe na żywo w internecie</summary>
     <summary lang="pt">Estações de rádio europeias com transmissão ao vivo na internet</summary>
     <summary lang="pt_BR">Estações de rádio europeias ao vivo por transmissão online</summary>
+    <summary lang="ro">Stații radio europene difuzate în direct pe internet</summary>
+    <summary lang="ru">Европейские радиостанции потокового вещания в интернете</summary>
     <summary lang="sk">Európske rádio stanice naživo stramujúce na internete</summary>
+    <summary lang="sl">Evropske radijske postaje v živo prek interneta</summary>
     <summary lang="sv">Europeiska radiostationer som sänder direkt över internet</summary>
+    <summary lang="tr">Avrupa'daki Radyo Istasyonlarını İnternet Üzerinden Canlı Dinleyin</summary>
     <summary lang="zh">互联网上的欧洲电台直播流</summary>
     <description lang="be">Welcome to listenlive.eu, a web radio directory showcasing over 4000 radio stations from across Europe streaming live on the internet.</description>
+    <description lang="bg">Добре дошли в listenlive.eu, радио каталог, предоставящ над 4000 радиостанции от цяла Европа чрез излъчване на живо по интернет.</description>
     <description lang="ca">Benvingut a listenlive.eu, un directori de ràdios web amb més de 4000 estacions de tota Europa transmetent en directe per Internet.</description>
     <description lang="da">Velkommen til listenlive.eu, en webradio-oversigt med over 4000 radiostationer fra overalt i Europe, som streamer live på nettet.</description>
     <description lang="de">Listenlive.eu ist ein Web-Radio Aggregator mit mehr als 4000 Radiostationen aus Europa.</description>
     <description lang="el">Καλώς ήρθατε στο listenlive.eu, ένα ευρετήριο διαδικτυακών ραδιοφωνικών σταθμών με περισσότερους από 4000 σταθμούς που εκπέμπουν ζωντανά στο διαδίκτυο σε όλη την Ευρώπη.</description>
     <description lang="en">Welcome to listenlive.eu, a web radio directory showcasing over 4000 radio stations from across Europe streaming live on the internet.</description>
+    <description lang="en_NZ">Welcome to listenlive.eu, a web radio directory showcasing over 4000 radio stations from across Europe streaming live on the internet.</description>
+    <description lang="en_US">Welcome to listenlive.eu, a web radio directory showcasing over 4000 radio stations from across Europe streaming live on the internet.</description>
     <description lang="es">Bienvenido a listenlive.eu, una guía de radios online con más de 4000 estaciones de radio de toda Europa retransmitiendo en directo por internet.</description>
     <description lang="fr">Bienvenue à listenlive.eu, un répertoire de web radio réunissant plus de 4000 stations radio depuis toute l'Europe en streaming direct depuis internet.  </description>
     <description lang="fr_CA">Bienvenue à listenlive.eu, un répertoire de radio sur le web mettant en valeur plus de 4000 stations radio à travers l'europe en direct sur l'internet.</description>
@@ -65,19 +77,23 @@
     <description lang="hr">Dobrodošli na listenlive.eu, web radio popis koji prikazuje preko 4000 radio postaja iz cijele Europe emitiranih uživo sa Interneta.</description>
     <description lang="hu">A listenlive.eu több mint 4000 élo rádióadást tartalmaz Európából, melyeket az interneten keresztül érhetsz el.</description>
     <description lang="it">Benvenuto a listenlive.eu una web radio che mostra più di 4000 radio stazioni provenienti da tutta Europa in diretta streaming  su internet.</description>
+    <description lang="lt">Jus sveikina  listenlive.eu, žiniatinklio radijo kanalas, internetu gyvai transliuojantis virš 4000 radijo stočių iš visos Europos.</description>
     <description lang="nl">Welkom bij listenlive.eu, een web radio station met meer dan 4000 radio stations uit heel europa welke live streamen op het internet.</description>
+    <description lang="no">Velkommen til listenlive.eu, en tjeneste med over 4000 radiostasjoner fra hele Europa live på internett.</description>
     <description lang="pl">Witamy w listenlive.eu, katalogu ponad 4000 stacji radiowych z całej Europy nadających na żywo w internecie.</description>
     <description lang="pt">Benvindo a listenlive.eu, um directório de rádios web que oferece mais de 4000 estações de rádio de toda a Europa com transmissão ao vivo na internet.</description>
     <description lang="pt_BR">Bem-vindo à listenlive.eu, um diretório de rádio na web que contém mais de 4000 estações de rádio de toda a Europa ao vivo pela internet.</description>
     <description lang="sk">Vitajte na listenlive.eu, web stránke, ktorá prezentuje vyše 4000 rádio staníc z celej Európy streamujúcich naživo na internete.</description>
+    <description lang="sl">Dobrodošli na listenlive.eu, spletni imenik več kot 4000 radijskih postaj iz cele Evrope, ki se v živo pretakajo po internetu.</description>
     <description lang="sv">Välkommen till listenlive.eu, en webbradiokatalog med över 4000 radiostationer från över hela Europa som sänder direkt över internet.</description>
+    <description lang="tr">Listenlibe.eu'ya hoşgeldiniz. Bir web radyo dizininden 4000'den fazla Avrupa'da yayın yapan radyo istayonunu dinlemenizi sağlar.</description>
     <description lang="zh">欢迎来到 listenlive.eu，一个包含超过4000个欧洲电台直播流的网络电台目录。</description>
     <language></language>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="plugin.image.mypicsdb" version="13.3.3" name="My Pictures Database" provider-name="Xycl | MikeBZH44 | Alexsolex">
+<addon id="plugin.image.mypicsdb" version="13.3.5" name="My Pictures Database" provider-name="Xycl | MikeBZH44 | Alexsolex">
 	<requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.common.plugin.cache" version="2.5.2"/>
@@ -109,7 +125,7 @@
         <summary lang="ko">고급 사진 관리자</summary>
         <summary lang="lt">Pažangi nuotraukų tvarkyklė</summary>
         <summary lang="nl">Afbeeldingen manager</summary>
-        <summary lang="pl">Zaawansowany manager zdjęć</summary>
+        <summary lang="pl">Zaawansowany menedżer obrazów</summary>
         <summary lang="pt">Gestor de Imagens Avançado</summary>
         <summary lang="pt_BR">Gerenciador de Imagens Avançado</summary>
         <summary lang="sk">Pokročilý správca obrázkov</summary>
@@ -136,7 +152,7 @@
         <description lang="ko">음악과 비디오를 관리하는 것처럼 사진도 관리하세요[CR]그러면 사진을 년/월/일 또는 키워드 등으로 정렬할 수 있습니다.</description>
         <description lang="lt">Tvarkykite savo nuotraukas kaip tai darote su muzika ir vaizdo įrašais[CR]Tada galėsite rūšiuoti nuotraukas pagal dieną/mėnesį/metus, raktinius žodžius ir daug daugiau</description>
         <description lang="nl">Toon uw afbeeldingen zoals voor muziek en video’s. Op basis van meta-gegevens in de afbeeldingen kunt een slideshow starten, zoals op datums, categorieën, trefwoorden of andere EXIF/IPTC/XMP tags.</description>
-        <description lang="pl">Zarządzaj zdjęciami tak jak muzyką i filmami[CR]Wtyczka pozwala sortować zdjęcia według dnia, miesiąca, roku, słowach kluczowych i wielu innych.</description>
+        <description lang="pl">Zarządzanie obrazami tak jak muzyką i materiałami wideo[CR]Wtyczka umożliwia sortowanie obrazów według dnia, miesiąca, roku, słowach kluczowych i wielu innych.</description>
         <description lang="pt">Organize as suas imagens tal como faz com as músicas e os vídeos[CR]Assim, conseguirá ordenar as imagens por dia/mês/ano, palavras-chave e muito mais</description>
         <description lang="pt_BR">Gerencie suas imagens assim como você já faz com músicas e vídeos[CR]Então, você poderá ordenar suas imagens por dia/mês/ano, palavras-chave e muito mais</description>
         <description lang="sk">Spravujte svoje obrázky ako zvyknete hudbu a videá&#10;Potom budete môcť usporiadať svoje obrázky podľa dňa/mesiaca/roku, kľúčového slova a oveľa viac</description>
