@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.wdrrockpalast" name="WDR Rockpalast" version="14.1.0" provider-name="xycl">
+<addon id="plugin.video.wdrrockpalast" name="WDR Rockpalast" version="14.1.1" provider-name="xycl">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -13,5 +13,6 @@
         <summary lang="en">Plays WDR Rockpalast concerts</summary>
         <description lang="de">Spielt die Konzerte, die der WDR auf http://www.wdr.de z.V. stellt.</description>
         <description lang="en">Plays concerts from german TV called WDR which can be found on http://www.wdr.de</description>
+        <broken>deprecated</broken>
     </extension>
 </addon>
