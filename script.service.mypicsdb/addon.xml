@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.service.mypicsdb"  name="MyPicsDB Update Service"  version="13.0.1" provider-name="Xycl">
+<addon id="script.service.mypicsdb"  name="MyPicsDB Update Service"  version="15.2.0" provider-name="Xycl">
    <requires>
    	<import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.service" library="default.py" start="login"></extension>
+  <extension point="xbmc.python.script" library="scan_exec.py">
+    <provides>executable</provides>
+  </extension>  
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <language></language>
