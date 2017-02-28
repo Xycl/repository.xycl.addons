@@ -94,7 +94,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.image.mypicsdb" version="14.2.1" name="My Pictures Database" provider-name="Xycl | MikeBZH44 | Alexsolex">
+<addon id="plugin.image.mypicsdb" version="14.3.0" name="My Pictures Database" provider-name="Xycl | MikeBZH44 | Alexsolex">
 	<requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.common.plugin.cache" version="2.5.2"/>
